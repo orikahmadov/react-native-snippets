@@ -1,0 +1,66 @@
+{
+	"React Native Component with Paper": {
+		"prefix": "rnpaperfc",
+		"body": [
+			"import { View, StyleSheet } from 'react-native';",
+			"import { useTheme, Button, Text } from 'react-native-paper';",
+			"import React, {useState, useEffect, memo} from 'react';",
+			"",
+			"",
+
+			"const ${1:ComponentName} = () => {",
+			"  // State variables and effect hooks can be added here",
+			"  const theme = useTheme();",
+			"",
+			" useEffect(() => {",
+			"    // Code to run after the component renders",
+			"    // This is a good place for side effects like API calls,subscriptions, fetching data,log, setting up a timer",
+			
+			"    console.log('Component mounted');",
+			"	// (Optional) Cleanup function to run when the component unmounts",
+			"    return () => {",
+			"      console.log('Component unmounted');",
+			"    };",
+			"// Below in array you can add dependencies that will trigger the effect when they change",
+			"  }, []);",
+
+			"  return (",
+			"    <View style={[styles.container]}>",
+			"      <Text>${2:Hello World}</Text>",
+			"    </View>",
+			"  );",
+			"};",
+			"",
+			"const styles = StyleSheet.create({",
+			"  container: {",
+			"    flex: 1,",
+			"    justifyContent: 'center',",
+			"    alignItems: 'center',",
+			"    padding: 16,",
+			"  },",
+			"});",
+			"",
+			"export default ${1:ComponentName};"
+		],
+		"description": "React Native component with Paper imports"
+	},
+	"React Native Stack Screen": {
+        "prefix": "rnstackscreen",
+        "body": [
+            "import { Stack } from 'expo-router';",
+			"// This file is used to define the layout for the stack navigation _layout.jsx",
+            "",
+            "export default function ${1:MyLayout}() {",
+            "  return (",
+            "    <Stack>",
+            "      <Stack.Screen name=\"index\" options={{ title: '${2:Home}', headerShown: false }} />",
+            "    </Stack>",
+            "  );",
+            "}"
+        ],
+        "description": "Basic Stack and Stack.Screen snippet"
+    },
+
+
+
+}
