@@ -8,3 +8,15 @@ The output should include the design style, the structure and anything that'll h
 3. It generates a json file and save it as design.json or style.json
 
 4. Use your prompt to follow up this design that is generate like "I want you to create a landing page for my X project and follow @style.json design
+
+
+
+
+
+
+
+smooth hover effects
+gentle tilt effects
+scroll-based animations
+animated glitch-style
+inertia-based scroll
