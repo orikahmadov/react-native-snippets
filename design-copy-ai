@@ -1,0 +1,10 @@
+
+1. Cut and paste any image to any AI from any web design or use stitch Google to generate design 
+
+(copy and paste the prompt below beside with screenshot of the web design)
+2.[Prompt for AI ] Create a JSON profile design system that extracts visual data from these screenshots so that i can use the JSON output in Cursor to give it context on how to replicate such design systems in a consistent style. Avoid including the contents of the specific images.
+The output should include the design style, the structure and anything that'll help an AI replicate such designs.
+
+3. It generates a json file and save it as design.json or style.json
+
+4. Use your prompt to follow up this design that is generate like "I want you to create a landing page for my X project and follow @style.json design
